@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Nav Bar</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+    </style>
+    <style>
+        :root {
+            --primary-color: #f1f669;
+            --secondary-color: #ffffff;
+            --black-color: #000000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            font-family: 'Honk', system-ui;
+            font-size: x-large;
+            display:flex;
+        }
+
+        body {
+            background-color: var(--secondary-color);
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+        }
+
+        ul li a:hover {
+            font-size:xx-large;
+            color: var(--black-color);
+
+        }
+
+        ul li a {
+            color: var(--black-color);
+            text-decoration: none;
+        }
+        div{
+            display:inline-flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="img33.jpg" alt="" width="30">
+            </div>
+            <ul>
+                <li title="Home"> <a href="#">Home</a></li>
+                <li title="Notes"> <a href="#">Notes</a></li>
+                <li title="Blog"> <a href="#">Blog</a></li>
+                <li title="About Us"> <a href="#">About Us</a></li>
+                <li title="Work With Us"> <a href="#">Work With Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>
